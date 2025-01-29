@@ -1,4 +1,5 @@
 // This file is a fallback for using MaterialIcons on Android and web.
+import Ionicons from '@expo/vector-icons/Ionicons';
 
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import { SymbolWeight } from 'expo-symbols';
@@ -13,6 +14,7 @@ const MAPPING = {
   'paperplane.fill': 'send',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
+  
 } as Partial<
   Record<
     import('expo-symbols').SymbolViewProps['name'],
